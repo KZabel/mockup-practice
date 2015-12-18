@@ -32,6 +32,17 @@ nav li a {
   text-decoration: none;
 }
 
+nav li:hover {
+  background-color: #04db28;
+  color: black;
+  text-decoration: underline;
+}
+
+nav li a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
 article {
   background-color: #edeeef;
   float: right;
