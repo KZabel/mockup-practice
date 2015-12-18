@@ -32,6 +32,17 @@ nav li a {
   text-decoration: none;
 }
 
+nav li:hover {
+  background-color: #04db28;
+  color: black;
+  text-decoration: underline;
+}
+
+nav li a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
 article {
   background-color: #edeeef;
   float: right;
@@ -81,3 +92,17 @@ footer li img {
   margin: 0 auto;
 }
 
+.offscreen {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.offscreen:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
