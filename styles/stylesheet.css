@@ -19,7 +19,7 @@ nav ul {
 }
 
 nav li {
-  background-color: mediumpurple;
+  background-color: #9370db;
   border-right: 4px solid rebeccapurple;
   display: inline-block;
   float: left;
@@ -30,6 +30,17 @@ nav li {
 nav li a {
   color: white;
   text-decoration: none;
+}
+
+nav li:hover {
+  background-color: #04db28;
+  color: black;
+  text-decoration: underline;
+}
+
+nav li a:hover {
+  color: black;
+  text-decoration: underline;
 }
 
 article {
